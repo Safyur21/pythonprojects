@@ -1,6 +1,7 @@
 
 import phonenumbers
-from text import number # you have to create text.py file with variable 'number'
+from text import number 
+# you have to create text.py file with variable 'number'
 
 from phonenumbers import geocoder
 ch_nmber = phonenumbers.parse(number,"CH")
